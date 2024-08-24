@@ -7,7 +7,7 @@
 #include<iostream> 
 using namespace std;
 
-// function to reverse an Array in (In-Place) with constant extra space 
+// Function to Reverse an Array in (In-Place) 
 
 void reverseArray( int arr[] , int size ){
   if( size == 0)
@@ -15,7 +15,7 @@ void reverseArray( int arr[] , int size ){
   int front = 0 , rear = size - 1;
   while( front < rear ){
     swap(arr[front] , arr[rear]);
-    front++ ; rear-- ;
+    front++ ; rear--;
   }
   
 }
