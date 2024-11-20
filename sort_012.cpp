@@ -1,3 +1,5 @@
+//we can use the Dutch National Flag algorithm. This algorithm works in linear time (O(n)) with a single traversal of the array, making it highly efficient for this use case.
+
 #include <iostream>
 #include <vector>
 using namespace std;
