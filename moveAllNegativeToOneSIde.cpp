@@ -1,3 +1,5 @@
+// solved using two pointer approch 
+
 #include<iostream>
 #include<vector>
 using namespace std;
